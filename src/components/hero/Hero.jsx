@@ -66,7 +66,7 @@ const Hero = () => {
             <ul
               data-aos="fade-up"
               data-aos-duration="1500"
-              className=" flex gap-8"
+              className=" flex gap-6"
             >
               <li>
                 <a href="https://github.com/ramakrishnaChelpuri">

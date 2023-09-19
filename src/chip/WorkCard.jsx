@@ -41,7 +41,6 @@ const WorkCard = () => {
                     <RxExternalLink className=" text-white bg-black rounded-full border  w-[35px] h-[35px] p-2" />
                     <p className=" text-black md:hidden">Demo</p>
                   </Link>
-                  {/* <br className="w-[2px] bg-gray-400" /> */}
                   <Link
                     to={data.git}
                     target="_blank"

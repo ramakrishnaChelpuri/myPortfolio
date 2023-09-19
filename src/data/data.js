@@ -6,7 +6,7 @@ export const data = [
     img: 'https://i.postimg.cc/4y5PPv7F/pig-Game-Thumbnail.png',
     title: "Dice Game",
     desc: "Roll... Score... and have fun!",
-    link: "",
+    link: "https://dice-game-43sw.onrender.com/",
     git: "https://github.com/ramakrishnaChelpuri/pigGame",
   },
   {
@@ -14,7 +14,7 @@ export const data = [
     img: 'https://i.postimg.cc/pXggX6mJ/Guess-My-Number-Thumbnail.png',
     title: "Guess My Number",
     desc:"Guess the number to score!",
-    link: "",
+    link: "https://guess-my-number-6wxb.onrender.com/",
     git: "https://github.com/ramakrishnaChelpuri/GuessMyNumber",
   },
   {
@@ -22,7 +22,7 @@ export const data = [
     img: 'https://i.postimg.cc/nzLYqnsb/Expenses-Thumbnail2.png',
     title: "Expense Tracker",
     desc: "Track & check out yearly statistics of your Expenses!",
-    link: "",
+    link: "https://expense-tracker-bixq.onrender.com/",
     git: "https://github.com/ramakrishnaChelpuri/ExpenseTracker",
   }
   
