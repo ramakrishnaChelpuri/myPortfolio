@@ -19,7 +19,7 @@ const Work = () => {
         </p>
       </div>
       <div className="card-wrapper mx-auto w-[90%] sm:w-fit mt-5">
-        <div className="card-box flex  space-y-5 space-x-5 w-full sm:gap-8 ">
+        <div className="card-box flex overflow-x-scroll space-y-5 space-x-5 w-full sm:gap-8 ">
           <WorkCard />
         </div>
       </div>
@@ -28,6 +28,3 @@ const Work = () => {
 };
 
 export default Work;
-
-
-//         <div className="card-box flex  space-y-5 space-x-10 w-full sm:gap-8 sm:grid-cols-1 sm:space-y-0 ">

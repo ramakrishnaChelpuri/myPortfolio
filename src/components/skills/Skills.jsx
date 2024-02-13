@@ -41,9 +41,9 @@ const Skills = ({ darkMode }) => {
               <div className=" flex flex-col hover:scale-95 gap-6  w-3/4  my-5 md:w-[90%]">
                 <ProgressBar logo={<FaReact />} name={"React"} value={70} />
                 <ProgressBar logo={<SiJavascript />} name={"JavaScript"} value={80} />
-                <ProgressBar logo={<GrMysql />} name={"My SQL"} value={90} />
-                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML 5"} value={95} />
-                <ProgressBar logo={<IoLogoCss3 />} name={"CSS 3"} value={90} />
+                <ProgressBar logo={<GrMysql />} name={"My SQL"} value={98} />
+                <ProgressBar logo={<IoLogoHtml5 />} name={"HTML 5"} value={100} />
+                <ProgressBar logo={<IoLogoCss3 />} name={"CSS 3"} value={80} />
                 <ProgressBar logo={<SiTailwindcss />} name={"CSS Tailwind"} value={70} />
               </div>
             </div>

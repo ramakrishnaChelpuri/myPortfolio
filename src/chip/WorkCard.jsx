@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import styled from "styled-components";
 import { data } from "../data/data";
 import { RxExternalLink } from "react-icons/rx";
@@ -18,7 +18,7 @@ const WorkCard = () => {
             className="flex flex-col md:flex-start justify-end items-center gap-7 md:justify-center md:h-[160] md:w-[92%] "
           >
             <POPUP className="img-content hover:scale-125">
-              <div className="h-[260px] w-[360px] transitionduration-900 cursor-pointer shadow-xl rounded-md overflow-hidden  md:flex-row md:h-[150px] md:w-[98%] md:bg-cover mx-auto ">
+              <div className="h-[260px] w-[360px] transitionduration-900 cursor-pointer rounded-md overflow-hidden md:flex-row md:h-[150px] md:w-[98%] md:bg-fit mx-auto ">
                 <img
                   src={data.img}
                   alt={data.title}
@@ -27,16 +27,16 @@ const WorkCard = () => {
               </div>
 
               <div
-                className={` popup w-full  h-[260px] shadow-xl rounded-md overflow-hidden md:h-[150px]  p-2`}
+                className={`popup w-full  h-[260px] shadow-xl rounded-md overflow-hidden md:h-[150px]  p-2`}
               >
-                <p className=" text-gray-900  leading-[1.2] text-justify w-[90%] text-xl md:text-xs">
+                <p className=" text-gray-900  leading-[1.2] text-justify w-[70%] text-xl md:text-xs">
                   {data.desc}
                 </p>
                 <div className=" flex md:p-5 items-center justify-center gap-4 md:h-[5px] md:w-[5px] md:text-xs">
                   <Link
                     to={data.link}
                     target="_blank"
-                    className="  mt-3 rounded-md shadow-[0px_0px_16px_12px_rgba(0,0,0,0.3)] p-1 px-2 flex gap-2 items-center justify-center font-medium "
+                    className="mt-3 rounded-md shadow-[0px_0px_16px_12px_rgba(0,0,0,0.3)] p-1 px-2 flex gap-2 items-center justify-center font-medium "
                   >
                     <RxExternalLink className=" text-white bg-black rounded-full border  w-[35px] h-[35px] p-2" />
                     <p className=" text-black md:hidden">Demo</p>

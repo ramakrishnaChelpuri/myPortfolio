@@ -1,30 +1,27 @@
 import React from "react";
-// import {IoSchoolSharp} from 'react-icons/io';
+import { MdLocationPin } from "react-icons/md";
+import { FaRegCalendarAlt,FaUserGraduate } from "react-icons/fa";
+import { HiBuildingOffice2 } from "react-icons/hi2";
+
 
 const Resume = () => {
   return (
-    <div id="resume" className=" container m-auto mt-16">
-      {/* Full-stack Java Developer */}
+    <div id="experience" className=" container m-auto mt-16">
       <div data-aos="fade-up" className="relative mb-5">
-        <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
-          Resume
+        <h3 className="text-3xl font-black text-gray-400 sm:text-2xl">
+          Experience & Qualification
         </h3>
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
-      <div data-aos="fade-up" className="left flex-1 w-full">
-        <p className=" text-gray-700 font-medium w-[100%]">
-          Here are my experiences and qualifications.
-        </p>
-      </div>
-      {/* card*/}
-      <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
+      
+      <div className="card-wrapper p-5 w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
         <div className="left flex-1 flex-start items-center justify-center">
           <fieldset
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
-            <legend className=" w-auto ml-[50%] translate-x-[-50%] rounded-3xl py-1 px-8 font-semibold text-xl text-white bg-black">
-              Experience
+            <legend className="flex gap-2 w-auto ml-[50%] translate-x-[-50%] rounded-3xl py-1 px-8 font-semibold text-xl text-white bg-black">
+            <HiBuildingOffice2 />Experience
             </legend>
             <div className=" relative">
               {/* design */}
@@ -35,20 +32,31 @@ const Resume = () => {
               </div>
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-teal-300 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-                <h1 className="text-[1.4rem] font-semibold">
+                <h1 className="text-[1.2rem] font-semibold">
+                  Full-Stack Developer
+                </h1>
+                <span className="text-[1.1rem] font-semibold  text-gray-500 sm:text-base">
+                  Speridian Technologies
+                </span>
+                <span className="flex gap-2 text-align-center">
+                  <MdLocationPin/>Albuquerque, NM
+                </span>
+                <span className=" flex gap-2 text-align-center text-[.9rem] font-semibold text-black sm:text-base">
+                  <FaRegCalendarAlt />Aug 2022 - Present
+                </span>
+               
+                <h1 className="text-[1.2rem] font-semibold pt-10">
                   Associate Software Developer
                 </h1>
-                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                <span className="text-[1.1rem] font-semibold  text-gray-500 sm:text-base">
                   Highradius
                 </span>
-                <span className=" text-[.9rem] font-semibold text-black sm:text-base">
-                  Aug 2018 - Dec 2020
+                <span className="flex gap-2 text-align-center">
+                  <MdLocationPin/>Hyderabad, IND
                 </span>
-                <p className=" text-[.9rem] text-justify break-words text-gray-400">
-                  I have demonstrated expertise in Java J2EE and Front-end technologies like React and Angular for almost 3 years. 
-                  Skilled in building RESTful Webservices & APIs, Java Spring Boot, and Microservice architecture with hands-on 
-                  experience in DevOps tools.
-                </p>
+                <span className=" flex gap-2 text-align-center text-[.9rem] font-semibold text-black sm:text-base">
+                  <FaRegCalendarAlt />Aug 2018 - Dec 2020
+                </span>
               </div>
             </div>
           </fieldset>
@@ -58,8 +66,8 @@ const Resume = () => {
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
-            <legend className=" w-auto ml-[50%] translate-x-[-50%] rounded-3xl py-1 px-8 font-semibold text-xl text-white bg-black">
-              Education
+            <legend className="flex gap-2 w-auto ml-[50%] translate-x-[-50%] rounded-3xl py-1 px-8 font-semibold text-xl text-white bg-black">
+            <FaUserGraduate />Education
             </legend>
             <div className=" relative">
               {/* design */}
@@ -70,30 +78,32 @@ const Resume = () => {
               </div>
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-teal-300 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-                <h1 className="text-[1.4rem] font-semibold">
-                  Master of Science, Computer Science
+                <h1 className="text-[1.2rem] font-semibold">
+                  Master's Degree in Computer Science
+                </h1>
+                <span className="text-[1.1rem] font-semibold  text-gray-500 sm:text-base">
+                  University of New Haven
+                </span>
+                <span className="flex gap-2 text-align-center">
+                  <MdLocationPin/>New Haven, CT
+                </span>
+                <span className=" flex gap-2 text-align-center text-[.9rem] font-semibold text-black sm:text-base">
+                  <FaRegCalendarAlt />Jan 2021 - Dec 2022
+                </span>
+
+                <h1 className="text-[1.2rem] font-semibold pt-10">
+                Bachelor's Degree in Computer Science
                 </h1>
                 {/* <IoSchoolSharp/> */}
-                 <span>
-                  <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                    University of New Haven
-                  </span>
-                  <span className=" italic right-5 absolute text-[.8rem] text-gray-500 sm:text-base">
-                    Connecticut, USA
-                  </span>
+                <span className="text-[1.1rem] font-semibold  text-gray-500 sm:text-base">
+                  SRM University
                 </span>
-                <span className=" text-[.9rem] font-semibold sm:text-base">
-                    Jan 2021 - Dec 2022
+                <span className="flex gap-2 text-align-center">
+                  <MdLocationPin/>Chennai, India
                 </span>
-               
-                
-                <p className=" text-[.9rem] text-justify text-gray-400">
-                  <a className="italic text-[.9rem] text-gray-600">Coursework: </a> 
-                    <a>Cloud Computing, Data Mining, Data Structures, Script Programming/Python, Enterprise 
-                      Network Design, Database Systems, Java Programming, Distributed Database Systems, Intro to Artificial 
-                      Intelligence, Web-Database Application Development
-                    </a>
-                </p>
+                <span className=" flex gap-2 text-align-center text-[.9rem] font-semibold text-black sm:text-base">
+                  <FaRegCalendarAlt />Aug 2014 - May 2018
+                </span>
               </div>
             </div>
           </fieldset>

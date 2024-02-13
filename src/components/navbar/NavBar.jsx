@@ -18,7 +18,7 @@ const navItems = [
   },
   {
     id: 3,
-    name: "resume",
+    name: "experience",
   },
   {
     id: 4,
@@ -62,7 +62,6 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-            Ramakrishna Chelpuri.
           </Link>
         </div>
         <div
@@ -104,12 +103,12 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 </a>
               </li>
             ))}
-            <a
+            {/* <a
               href=""
               className="bg-black text-[1rem] text-white px-10 py-2 rounded-lg font-bold hover:text-teal-700 md:m-6 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
-            </a>
+            </a> */}
           </ul>
         </div>
       </nav>

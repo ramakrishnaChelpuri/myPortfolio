@@ -14,7 +14,7 @@ import resumePDF from "../../assets/Resume.pdf";
 const Hero = () => {
   return (
     <div id="home" className={` bg-gradient-to-r from-green-300 to-blue-300 `}>
-      <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
+      <div className=" container mx-auto pt-5 h-[100vh] md:h-[100vh]  md:flex-col-reverse sm:h-[580px]  flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
             <h2
@@ -22,24 +22,24 @@ const Hero = () => {
               className=" text-5xl font-bold sm:text-[2rem]"
             >
               <p>Hello, I'm</p>
-              <p>Ramakrishna Chelpuri</p>
+              <p>Ramakrishna Chelpuri.</p>
             </h2>
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
                 "Full-stack Developer",
                 2000,
-                "Freelancer",
-                2000,
+                // "Freelancer",
+                // 2000,
                 "",
+                500,
               ]}
-              speed={30}
+              speed={40}
               wrapper="h2"
               repeat={Infinity}
               className="text-teal-500 text-4xl font-bold sm:text-3xl"
             />
             <p
-              // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
               Looking for someone who can build a robust website?
@@ -79,7 +79,7 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/ch_v_r_k/">
+                <a href="">
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-150  " />{" "}
                 </a>
               </li>
@@ -96,24 +96,24 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-        <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
+        <div className="right  top-5 flex-1 flex items-center justify-center md:p-5 md:m-5 md:items-end sm:items-end">
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
             data-aos="fade-up"
-              className=" h-[90%]  w-full object-cover md:h-[65%] md:m-auto sm:m-0 transform: scale(0.5)"
-              src='https://i.postimg.cc/63XYNY69/fotor-2023-8-26-13-5-29.png'
+              className=" h-[80%]  w-full object-cover md:h-[55%] md:m-auto sm:m-0 transform: scale(0.5)"
+              src='https://i.postimg.cc/tCQ7PDKn/Untitled-design.png'
               // src={mine}
               alt="mine"
             />
-            <div className=" absolute bottom-10 md:bottom-2 right-20 md:right-5">
+            <div className=" absolute bottom-5 md:visibility-none right-10">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
-                  src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
+                  src="https://i.postimg.cc/cLgSmtVg/circle.png"
                   alt=""
                 />
                 <FaPlay
-                  className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                  className=" text-white absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
                 />
               </div>
             </div>

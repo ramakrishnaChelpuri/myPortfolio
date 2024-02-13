@@ -23,9 +23,10 @@ const Contact = () => {
 
   const contactSubmitHandler=(e)=>{
     e.preventDefault();
-      setYourBody('');
-      setYourEmail('');
-      setYourSubject('');
+    document.location=`mailto:ramakrishnachelpuri44@gmail.com?subject=${yourSubject}&body=${yourBody}`
+    setYourBody('');
+    setYourEmail('');
+    setYourSubject('');
   }
 
   return (
@@ -47,7 +48,7 @@ const Contact = () => {
             >
               <h1 className="text-5xl font-bold sm:text-3xl">You Need</h1>
               <h3 className="text-xl md:text-lg">
-                Beautiful design for your website leave a request
+                beautiful design for your website leave a request?
               </h3>
             </div>
           </div>
@@ -68,6 +69,7 @@ const Contact = () => {
             method="get"
             encType="text/plain"
             onSubmit={contactSubmitHandler}
+            
           >
             <input
               className="px-3 shadow-[0_0_10px_0px_rgba(0,0,0,0.3)] p-2 rounded-lg w-full"
@@ -80,7 +82,7 @@ const Contact = () => {
             <input
               className="px-3 shadow-[0_0_10px_0px_rgba(0,0,0,0.3)] p-2 rounded-lg w-full"
               type="text"
-              placeholder="Ramakrishna Chelpuri"
+              placeholder="Your name"
               name="subject"
               value={yourSubject}
               onChange={onSubjectChange}

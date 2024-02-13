@@ -5,11 +5,11 @@ const SkillBox = ({ logo, black, white, skill }) => {
     <div
     data-aos="zoom-in" data-aos-duration="1000"
       className={
-        "box w-[11rem] h-[11rem] rounded-lg bg-" +
+        "box w-[10rem] h-[10rem] rounded-lg bg-" +
         black +
         " text-" +
         white +
-        " shadow-2xl flex flex-col items-center hover:scale-125 justify-center gap-4 p-1 sm:w-[7.2rem] sm:h-[7.2rem] exsm:w-[6.5rem] exsm:h-[6.5rem]"
+        " shadow-2xl flex flex-col items-center hover:scale-125 justify-center gap-4 p-1 md:w-[6.2] md:h-[6.2] sm:w-[7.2rem] sm:h-[7.2rem] exsm:w-[6.5rem] exsm:h-[6.5rem]"
       }
     >
       <div
